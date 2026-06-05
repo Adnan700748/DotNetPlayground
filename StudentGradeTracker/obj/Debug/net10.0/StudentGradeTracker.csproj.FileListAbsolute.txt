@@ -1,0 +1,14 @@
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\bin\Debug\net10.0\StudentGradeTracker.exe
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\bin\Debug\net10.0\StudentGradeTracker.deps.json
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\bin\Debug\net10.0\StudentGradeTracker.runtimeconfig.json
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\bin\Debug\net10.0\StudentGradeTracker.dll
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\bin\Debug\net10.0\StudentGradeTracker.pdb
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.dll
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\refint\StudentGradeTracker.dll
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.pdb
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\StudentGradeTracker.genruntimeconfig.cache
+C:\Users\Owner\Desktop\Lab\DotNetPlayground\StudentGradeTracker\obj\Debug\net10.0\ref\StudentGradeTracker.dll
