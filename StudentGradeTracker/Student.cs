@@ -12,4 +12,12 @@ public class Student
         Name = name;
         Grades = new List<double>();
     }
+
+    public double GetAverage()
+    {
+        if (Grades.Count == 0)
+            return 0;
+
+        return Grades.Average();
+    }
 }

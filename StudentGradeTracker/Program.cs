@@ -1,4 +1,4 @@
-﻿List<Student> students = new List<Student>();
+﻿StudentService service = new();
 
 bool running = true;
 
@@ -6,9 +6,12 @@ while (running)
 {
     Console.WriteLine("\n===== Student Grade Tracker =====");
     Console.WriteLine("1. Add Student");
-    Console.WriteLine("2. Exit");
+    Console.WriteLine("2. Add Grade");
+    Console.WriteLine("3. Show Students");
+    Console.WriteLine("4. Top Student");
+    Console.WriteLine("5. Exit");
 
-    Console.Write("Choose option: ");
+    Console.Write("\nChoose option: ");
 
     int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -16,20 +19,43 @@ while (running)
     {
         case 1:
 
-            Console.Write("Enter student name: ");
+            Console.Write("Student name: ");
 
             string name = Console.ReadLine();
 
-            Student student = new Student(
-                students.Count + 1,name);
+            service.AddStudent(name);
 
-            students.Add(student);
-
-            Console.WriteLine("Student added successfully.");
+            Console.WriteLine("Student added.");
 
             break;
 
         case 2:
+
+            Console.Write("Student Id: ");
+
+            int id = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Grade: ");
+
+            double grade = Convert.ToDouble(Console.ReadLine());
+
+            service.AddGrade(id, grade);
+
+            break;
+
+        case 3:
+
+            service.ShowStudents();
+
+            break;
+
+        case 4:
+
+            service.ShowTopStudent();
+
+            break;
+
+        case 5:
 
             running = false;
 
@@ -37,7 +63,7 @@ while (running)
 
         default:
 
-            Console.WriteLine("Invalid choice.");
+            Console.WriteLine("Invalid option.");
 
             break;
     }
